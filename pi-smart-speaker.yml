@@ -1,0 +1,8 @@
+---
+
+- name: pi smart speaker
+  hosts: pi
+  user: pi
+  roles:
+    - system
+    - google-assistent-library

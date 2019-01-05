@@ -1,0 +1,12 @@
+---
+
+- name: Update and upgrade apt packages
+  become: true
+  apt:
+    upgrade: yes
+    update_cache: yes
+
+- name: Copy audio (ALSA) configuration
+  copy:
+    src: .asoundrc
+    dest: .
