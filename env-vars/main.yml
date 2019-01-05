@@ -1,0 +1,11 @@
+---
+
+# See https://developers.google.com/assistant/sdk/guides/library/python/embed/audio?hardware=rpi
+
+# Use `arecord -l` to find the microphone
+mic_card_number: "1"
+mic_device_number: "0"
+
+# Use `aplay -l` to find the speaker
+speaker_card_number: "0"
+speaker_device_number: "0"

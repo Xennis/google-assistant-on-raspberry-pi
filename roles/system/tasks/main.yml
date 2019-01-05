@@ -8,5 +8,6 @@
 
 - name: Copy audio (ALSA) configuration
   copy:
-    src: .asoundrc
-    dest: .
+    src: .asoundrc.js
+    dest: .asoundrc
+  tags: config, audio
