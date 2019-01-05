@@ -6,4 +6,4 @@ install:
 before_script:
   - ansible-playbook --version
 script:
-  - ansible-playbook --syntax-check pi-smart-speaker.yml
+  - ansible-playbook --syntax-check google-assistant-on-pi.yml

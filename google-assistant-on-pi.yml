@@ -1,6 +1,6 @@
 ---
 
-- name: pi smart speaker
+- name: Google Assistant on Raspberry Pi
   hosts: pi
   user: pi
   vars_files:
