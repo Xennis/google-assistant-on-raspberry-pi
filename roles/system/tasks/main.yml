@@ -7,7 +7,7 @@
     update_cache: yes
 
 - name: Copy audio (ALSA) configuration
-  copy:
-    src: .asoundrc.j2
-    dest: .asoundrc
+  template:
+    src: "files/.asoundrc.j2"
+    dest: ".asoundrc"
   tags: config, audio
