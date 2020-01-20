@@ -1,9 +1,9 @@
-# Ansible Playbook: Google Assistant on a Respberry Pi
+# Ansible Playbook: Google Assistant on a Raspberry Pi
 
 [![Build Status](https://travis-ci.org/Xennis/google-assistant-on-raspberry-pi.svg?branch=master)](https://travis-ci.org/Xennis/google-assistant-on-raspberry-pi)
 
 See [
-Introduction to the Google Assistant Library](https://developers.google.com/assistant/sdk/guides/library/python/). It explains step by step how to run the Google Assistant on a Respberry Pi.
+Introduction to the Google Assistant Library](https://developers.google.com/assistant/sdk/guides/library/python/). It explains step by step how to run the Google Assistant on a Raspberry Pi.
 
 ### Setup Google Cloud Platform project
 
